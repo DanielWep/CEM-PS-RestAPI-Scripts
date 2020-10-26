@@ -1,1 +1,1 @@
-# CEM-PS-RestAPI-Scripts
+# CEM-Powershell-RestAPI-Scripts

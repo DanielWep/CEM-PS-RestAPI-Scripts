@@ -18,7 +18,7 @@ try {
     $restapicmd = Invoke-RestMethod -Uri "$base/serverproperties" -Body '{"name":"apple.apns.http2","value":"true","displayName":"apple.apns.http2","description":"Enable HTTP/2 for APNS"}' -ContentType application/json -Headers $headers -Method Post
     if ($restapicmd.status -eq "0") {
         Write-Host "Status: APNS HTTP2 Server Property successfully installed." -ForegroundColor Green 
-        Write-Host "Info: No restart is required for the Cloud Edition, but a restart is required for the OnPrem Edition." -ForegroundColor Green
+        Write-Host "Info: A restart is required for activate this server property." -ForegroundColor Green
     } else {
         Write-Host "Status:" $_.Exception.Response.StatusCode.value__ -ForegroundColor Red
     }

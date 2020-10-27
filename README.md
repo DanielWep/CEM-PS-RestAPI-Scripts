@@ -18,7 +18,7 @@ CEM-Enable-APNS-HTTP2.ps1
 This powershell script enables the APNS HTTP2 requirements per server property. 
 
 ```
-CEM-Enable-APNS-HTTP2.ps1  -hostname “company.xm.cloud.com” -username "restapi" -password "restapi123!"
+CEM-Enable-APNS-HTTP2.ps1  -hostname “xenmobile.company.com” -username "restapi" -password "restapi123!"
 ```
 
 #

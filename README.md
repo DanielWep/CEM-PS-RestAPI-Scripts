@@ -15,10 +15,10 @@ A user with enough permission is required, you can use the administrator account
 ### 
 CEM-Enable-APNS-HTTP2.ps1 
 
-This powershell script enables the APNS HTTP2 requirements per server property. 
+This powershell script enables the APNS HTTP2 requirements per server property. You will be prompted to enter your password.
 
 ```
-CEM-Enable-APNS-HTTP2.ps1  -hostname “xenmobile.company.com” -username "restapi" -password "restapi123!"
+CEM-Enable-APNS-HTTP2.ps1  -hostname “xenmobile.company.com” -username "restapi"
 ```
 
 #
